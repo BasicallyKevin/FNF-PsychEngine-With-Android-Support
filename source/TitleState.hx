@@ -136,7 +136,6 @@ class TitleState extends MusicBeatState
         backgroundTitle.antialiasing = ClientPrefs.globalAntialiasing;
           
 		swagShader = new ColorSwap();
-		gfDance = FlxSprite(titleJSON.gfx, titleJSON.gfy);
 		super.create();
 
 		FlxG.save.bind('funkin', 'ninjamuffin99');
